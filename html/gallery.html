@@ -1,0 +1,459 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+		<meta charset="utf-8">
+		<meta name="viewport" content="width=device-width, initial-scale=1">
+	<title>Gallery</title>
+		<link rel="stylesheet" href="style4gallery.css">
+		<link href='https://fonts.googleapis.com/css?family=Comfortaa' rel='stylesheet'>
+
+	<script>
+
+		function myFunction1(imgs1) {
+		  var expandImg1 = document.getElementById("expandedImg1");
+		  var imgText1 = document.getElementById("imgtext1");
+		  expandImg1.src = imgs1.src;
+		  imgText1.innerHTML = imgs1.alt;
+		  expandImg1.parentElement.style.display = "inline-block";
+		}
+
+		function myFunction2(imgs2) {
+		  var expandImg2 = document.getElementById("expandedImg2");
+		  var imgText2 = document.getElementById("imgtext2");
+		  expandImg2.src = imgs2.src;
+		  imgText2.innerHTML = imgs2.alt;
+		  expandImg2.parentElement.style.display = "inline-block";
+		}
+		
+		function myFunction3(imgs3) {
+		  var expandImg3 = document.getElementById("expandedImg3");
+		  var imgText3 = document.getElementById("imgtext3");
+		  expandImg3.src = imgs3.src;
+		  imgText3.innerHTML = imgs3.alt;
+		  expandImg3.parentElement.style.display = "inline-block";
+		}
+		// description element-water falls 
+
+		function myFunctionshow1() {
+		  document.getElementById("des1").style.display = "inline-block";
+		  document.getElementById("w1o1").style.display = "inline-block";
+		}
+
+		function myFunctionhide1() {
+		  document.getElementById("des1").style.display = "none";
+		  document.getElementById("w1o1").style.display = "none";
+		}
+
+		function myFunctionshow2() {
+		  document.getElementById("des1").style.display = "inline-block";
+		  document.getElementById("w2o2").style.display = "inline-block";
+		}
+
+		function myFunctionhide2() {
+		  document.getElementById("des1").style.display = "none";
+		  document.getElementById("w2o2").style.display = "none";
+		}
+
+		function myFunctionshow3() {
+		  document.getElementById("des1").style.display = "inline-block";
+		  document.getElementById("w3o3").style.display = "inline-block";
+		}
+
+		function myFunctionhide3() {
+		  document.getElementById("des1").style.display = "none";
+		  document.getElementById("w3o3").style.display = "none";
+		}
+
+		function myFunctionshow4() {
+		  document.getElementById("des1").style.display = "inline-block";
+		  document.getElementById("w4o4").style.display = "inline-block";
+		}
+
+		function myFunctionhide4() {
+		  document.getElementById("des1").style.display = "none";
+		  document.getElementById("w4o4").style.display = "none";
+		}
+
+		function myFunctionshow5() {
+		  document.getElementById("des1").style.display = "inline-block";
+		  document.getElementById("w5o5").style.display = "inline-block";
+		}
+
+		function myFunctionhide5() {
+		  document.getElementById("des1").style.display = "none";
+		  document.getElementById("w5o5").style.display = "none";
+		}
+
+		function myFunctionshow6() {
+		  document.getElementById("des1").style.display = "inline-block";
+		  document.getElementById("w6o6").style.display = "inline-block";
+		}
+
+		function myFunctionhide6() {
+		  document.getElementById("des1").style.display = "none";
+		  document.getElementById("w6o6").style.display = "none";
+		}
+
+		// description element-Wildlife
+
+		function myFunctionshow7() {
+		  document.getElementById("des2").style.display = "inline-block";
+		  document.getElementById("d1o1").style.display = "inline-block";
+		}
+
+		function myFunctionhide7() {
+		  document.getElementById("des2").style.display = "none";
+		  document.getElementById("d1o1").style.display = "none";
+		}
+
+		function myFunctionshow8() {
+		  document.getElementById("des2").style.display = "inline-block";
+		  document.getElementById("d2o2").style.display = "inline-block";
+		}
+
+		function myFunctionhide8() {
+		  document.getElementById("des2").style.display = "none";
+		  document.getElementById("d2o2").style.display = "none";
+		}
+
+		function myFunctionshow9() {
+		  document.getElementById("des2").style.display = "inline-block";
+		  document.getElementById("d3o3").style.display = "inline-block";
+		}
+
+		function myFunctionhide9() {
+		  document.getElementById("des2").style.display = "none";
+		  document.getElementById("d3o3").style.display = "none";
+		}
+
+		function myFunctionshow10() {
+		  document.getElementById("des2").style.display = "inline-block";
+		  document.getElementById("d4o4").style.display = "inline-block";
+		}
+
+		function myFunctionhide10() {
+		  document.getElementById("des2").style.display = "none";
+		  document.getElementById("d4o4").style.display = "none";
+		}
+
+		function myFunctionshow11() {
+		  document.getElementById("des2").style.display = "inline-block";
+		  document.getElementById("d5o5").style.display = "inline-block";
+		}
+
+		function myFunctionhide11() {
+		  document.getElementById("des2").style.display = "none";
+		  document.getElementById("d5o5").style.display = "none";
+		}
+
+		function myFunctionshow12() {
+		  document.getElementById("des2").style.display = "inline-block";
+		  document.getElementById("d6o6").style.display = "inline-block";
+		}
+
+		function myFunctionhide12() {
+		  document.getElementById("des2").style.display = "none";
+		  document.getElementById("d6o6").style.display = "none";
+		}
+
+		// description element-Beaches
+
+		function myFunctionshow13() {
+		  document.getElementById("des3").style.display = "inline-block";
+		  document.getElementById("b1o1").style.display = "inline-block";
+		}
+
+		function myFunctionhide13() {
+		  document.getElementById("des3").style.display = "none";
+		  document.getElementById("b1o1").style.display = "none";
+		}
+
+		function myFunctionshow14() {
+		  document.getElementById("des3").style.display = "inline-block";
+		  document.getElementById("b2o2").style.display = "inline-block";
+		}
+
+		function myFunctionhide14() {
+		  document.getElementById("des3").style.display = "none";
+		  document.getElementById("b2o2").style.display = "none";
+		}
+
+		function myFunctionshow15() {
+		  document.getElementById("des3").style.display = "inline-block";
+		  document.getElementById("b3o3").style.display = "inline-block";
+		}
+
+		function myFunctionhide15() {
+		  document.getElementById("des3").style.display = "none";
+		  document.getElementById("b3o3").style.display = "none";
+		}
+
+		function myFunctionshow16() {
+		  document.getElementById("des3").style.display = "inline-block";
+		  document.getElementById("b4o4").style.display = "inline-block";
+		}
+
+		function myFunctionhide16() {
+		  document.getElementById("des3").style.display = "none";
+		  document.getElementById("b4o4").style.display = "none";
+		}
+
+		function myFunctionshow17() {
+		  document.getElementById("des3").style.display = "inline-block";
+		  document.getElementById("b5o5").style.display = "inline-block";
+		}
+
+		function myFunctionhide17() {
+		  document.getElementById("des3").style.display = "none";
+		  document.getElementById("b5o5").style.display = "none";
+		}
+
+		function myFunctionshow18() {
+		  document.getElementById("des3").style.display = "inline-block";
+		  document.getElementById("b6o6").style.display = "inline-block";
+		}
+
+		function myFunctionhide18() {
+		  document.getElementById("des3").style.display = "none";
+		  document.getElementById("b6o6").style.display = "none";
+		}
+
+
+
+
+	</script>
+
+</head>
+<body id="textcolor">
+<nav>
+		
+        <div class="logo">Ceylon Travels</div>
+        <ul>
+            <li><a href="home.html">Home</a></li> 
+            <li><a href="gallery.html">Gallery</a></li>
+            <li><a href="shopping.html">Shop</a></li>
+            <li><a href="health.html">Health guideline</a></li>
+            <li><a href="Quiz.html">Quiz</a></li>
+            <li><a href="queary.html">Query</a></li>
+            <li><a href="sitemap.html">Site Map</a></li>
+            <li><a href="aboutus.html">About Us</a></li>
+            
+        </ul>
+    </nav>
+    <br>
+	<header>
+		<div class="dropdown">
+		  <button class="dropbtn">Change Background Color</button>
+		  	<div class="dropdown-content">
+			    <a onclick="document.getElementById('textcolor').style.backgroundColor='red'">Red</a>
+			    <a onclick="document.getElementById('textcolor').style.backgroundColor='black'">Black</a>
+			    <a onclick="document.getElementById('textcolor').style.backgroundColor='green'">Green</a>
+			    <a onclick="document.getElementById('textcolor').style.backgroundColor='white'">White</a>
+		  	</div>
+		</div>
+
+
+		<div class="dropdown">
+		  <button class="dropbtn">Change Text Color</button>
+		  	<div class="dropdown-content">
+			    <a onclick="document.getElementById('textcolor').style.color='red'">red</a>
+			    <a onclick="document.getElementById('textcolor').style.color='black'">Black</a>
+			    <a onclick="document.getElementById('textcolor').style.color='green'">Green</a>
+			     <a onclick="document.getElementById('textcolor').style.color='grey'">Grey</a>
+		    </div>
+		</div>
+	</header>
+			<br><br>
+		<div>
+		<h1 class="Galleryh1">Beautiful Places in Sri Lanka</h1>
+			<a class="editorlink" href="EditorR.html">Page editor</a>
+		</div>
+		
+		<div id="sitemap1">
+			<h2 class="Galleryh2">Waterfalls</h2>
+		</div>
+
+		<div class="row">
+			<div class="column">
+				<img src="1.jpeg" onmouseover ="myFunction1(this);" alt="Bambarakanda Falls">
+				<p id="w1" onmouseover="myFunctionshow1();" onmouseout="myFunctionhide1();" >Description</p>
+				
+			</div>
+			<div class="column">
+				<img src="2.jpeg" onmouseover ="myFunction1(this);" alt="Baker Falls">
+				<p id="w2" onmouseover="myFunctionshow2();" onmouseout="myFunctionhide2();">Description</p>
+				
+			</div>
+			<div class="column">
+				<img src="3.jpeg" onmouseover ="myFunction1(this);" alt="St. Clair’s Falls">
+				<p id="w3" onmouseover="myFunctionshow3();" onmouseout="myFunctionhide3();">Description</p>
+				
+			</div>
+			<div class="column">
+				<img src="4.jpeg" onmouseover ="myFunction1(this);" alt="Ravana Falls">
+				<p id="w4" onmouseover="myFunctionshow4();" onmouseout="myFunctionhide4();" >Description</p>
+				
+			</div>
+
+			<div class="column">
+				<img src="1.1.jpeg" onmouseover ="myFunction1(this);" alt="Dunhinda Falls">
+				<p id="w5" onmouseover="myFunctionshow5();" onmouseout="myFunctionhide5();" >Description</p>
+				
+			</div>
+
+			<div class="column">
+				<img src="1.2.jpeg" onmouseover ="myFunction1(this);" alt="Gartmore Falls">
+				<p id="w6" onmouseover="myFunctionshow6();" onmouseout="myFunctionhide6();">Description</p>
+				
+			</div>
+
+		</div>
+
+		<div class="row">
+			<div class="container">
+		  		<span onclick="this.parentElement.style.display='none'" class="closebtn">&times;</span>
+		  		<img id="expandedImg1" src="1.jpeg" alt="temp" >
+		  		<div id="imgtext1"></div>
+			</div>
+
+			<div class="description" id="des1">
+				<br>
+		 		<p id="w1o1"> <b>Bambarakanda Falls</b> This is the tallest waterfall in Sri Lanka! The water plummets from 263 meters over the base pool. You can take the path from Kalupahana by foot, which is about an hour hike, or opt for a tuk-tuk. Check with the ticket office if it is okay to climb to the very top - when conditions are too slippery, visitors may be at risk for falling over the falls!</p>
+		  		<br>
+		  		<p id="w2o2"> <b>Baker Falls</b> This waterfall is named after the famous explorer, Sir Samual Baker. Easy to visit, it is located in Horton Plains National Park on a tributary of the Belihul Oya. Visiting the falls involves a 9km hike on a man built stone road, so be prepared for a hilly ascent. There are two trails to the falls. Try the right path over the left one, this will allow you to enjoy Horton Plains and absorb the beauty of Baker’s Falls before you get too exhausted.</p>
+		  		<br>
+		  		<p id="w3o3"> <b>St. Clair’s Falls</b> Called the “Little Niagara of Sri Lanka,” this waterfall is one of the widest in Sri Lanka and is surrounded by a tea plantation. It consists of two falls: “Maha Ella” which is “the Greater Fall” and “Kuda Ella”, “the Lesser Fall.”</p>
+		  		<br>
+		  		<p id="w4o4"> <b>Ravana Falls</b> A towering 25 meters in height, this waterfall is one of the largest tourist attractions in the Ella region. It is connected to the famous Indian Epic in which King Ravana hid Princess Sita in the cave behind the falls after abducting her from India.  </p>
+		  		<br>
+		  		<p id="w5o5"> <b>Dunhinda Falls</b> Known for its smoky-looking misty spray, “Dun in Sinhala” means mist or smoke. It is also known as bridal falls for the mist’s resemblance to a bridal veil. There are also a few legends behind Dunhinda Falls. One tells of a fish wearing a golden earring that swims over the treasure of the Prince of Uva. With guards protecting this treasure below the water, it is said they seek human sacrifice. So, if you are one to believe these old legends, maybe do not swim in the pools!  Another legend describes a princess and her commoner lover. In their final act against separation by the disapproving Gampola King, they hurled themselves from the highest ledge of the falls.</p>
+		  		<br>
+		  		<p id="w6o6"> <b>Gartmore Falls</b> Gartmore Falls, also known as “Sri Pada Falls” is located close to Sri Pada Mountain (or Adam’s Peak). Fed by two streams on the Gartmore estate, Gartmore falls drops directly into the Maskeliya reservoir. Gartmore Falls is sometimes mistaken for Moray Falls which is right next to it. If you’re looking for a real hiking experience, you can climb Adam’s peak which is seen as a pilgrimage for locals and is properly climbed at night. For a gentle alternative try Little Adam’s Peak. INTRO's Sri Lanka Experience which includes a hike through Little Adam’s Peak!</p>
+			</div>
+
+		</div>
+		<div id="sitemap2">
+		<h2  class="Galleryh2">Wildlife</h2>
+	</div>
+		<div class="row">
+			<div class="column">
+				<img src="7.jpeg" onmouseover ="myFunction2(this);" alt="Elephant">
+				<p id="d1" onmouseover="myFunctionshow7();" onmouseout="myFunctionhide7();" >Description</p>
+			
+			</div>
+			<div class="column">
+				<img src="8.jpeg" onmouseover ="myFunction2(this);" alt="peacock">
+				<p id="d2" onmouseover="myFunctionshow8();" onmouseout="myFunctionhide8();" >Description</p>
+				
+			</div>
+			<div class="column">
+				<img src="9.jpeg" onmouseover ="myFunction2(this);" alt="Loris">
+				<p id="d3" onmouseover="myFunctionshow9();" onmouseout="myFunctionhide9();" >Description</p>
+				
+			</div>
+			<div class="column">
+				<img src="10.jpeg" onmouseover ="myFunction2(this);" alt="Deer">
+				<p id="d4" onmouseover="myFunctionshow10();" onmouseout="myFunctionhide10();" >Description</p>
+				
+			</div>
+
+			<div class="column">
+				<img src="9.1.jpeg" onmouseover ="myFunction2(this);" alt="Ceylon magpie">
+				<p id="d5" onmouseover="myFunctionshow11();" onmouseout="myFunctionhide11();" >Description</p>
+				
+			</div>
+
+			<div class="column">
+				<img src="9.2.jpeg" onmouseover ="myFunction2(this);" alt="The Sri Lankan sambar">
+				<p id="d6" onmouseover="myFunctionshow12();" onmouseout="myFunctionhide12();" >Description</p>
+				
+			</div>
+		</div>
+
+		<div class="row" >
+		<div class="container">
+		  <span onclick="this.parentElement.style.display='none'" class="closebtn">&times;</span>
+		  <img id="expandedImg2" src="7.jpeg" alt="temp">
+		  <div id="imgtext2"></div>
+		</div>
+		<div class="description" id="des2">
+			<p id="d1o1"> <b>Elephant</b> The Asian elephant is the number one animal that people on holiday in Sri Lanka hope to spot. While there are a number of elephant orphanages that allow you to get up close and personal with the animals by riding and feeding them, seeing elephants in the wild is a much better experience and one that you can do without worrying whether they are being mistreated or not.</p>
+		  		<br>
+		  	<p id="d2o2"> <b>The peacock</b> , largest of the pheasants, is native to Sri Lanka and India. It is often the male of the species that is shown in photographs, showing the beautiful plumage. Hence the simile "proud as a peacock". The female (pea hen) lacks the beautiful ornamental feathers or the bright coloring.</p>
+		  		<br>
+		  	<p id="d3o3"> <b>The slender lorises</b>  (Loris) are a genus of loris native to India and Sri Lanka. The genus comprises two species, the red slender loris found in Sri Lanka and the gray slender loris from Sri Lanka and India. Slender lorises spend most of their life in trees, traveling along the tops of branches with slow and precise movements. They are found in tropical rainforests, scrub forests, semi-deciduous forests, and swamps. The primates have lifespans of approximately 15 years and are nocturnal. Slender lorises generally feed on insects, reptiles, plant shoots, and fruit.</p>
+		  		<br>
+		  	<p id="d4o4"> <b>Deer</b> There are four species of deer in the plains and jungles of Sri Lanka. Spotted deer, barking deer, mouse deer and the Sambhur (elk). The Sambhur is somewhat darker than the others, and is the biggest, about five feet at the shoulders, and perhaps the most handsome. The "spotted deer" shown here is by far, the most common, and can be seen in large herds in some of the national parks and most of the open plains, specially in the northern dry sector.</p>
+		  		<br>
+		  	<p id="d5o5"> <b>The Sri Lanka blue magpie</b> or Ceylon magpie (Urocissa ornata) is a brightly coloured member of the family Corvidae, found exclusively in Sri Lanka.This species is adapted to hunting in the dense canopy, where it is highly active and nimble Its flight is rather weak, though, and is rarely used to cover great distances. In spite of the Sri Lanka blue magpie's ability to adapt to the presence of humans,it is classified as vulnerable to extinction due to the fragmentation and destruction of its habitat of dense primary forest in the wet zone of southern Sri Lanka.</p>
+		  		<br>
+		  	<p id="d6o6"> <b>The Sri Lankan sambar</b> or Indian sambar (Rusa unicolor unicolor) - it is also spelt "sambhur" or "sambur" - ගෝනා (gōṇā) in Sinhala, is a subspecies of the sambar that lives in India and Sri Lanka. This subspecies is one of the largest sambar subspecies, with the largest antlers both in size and in body proportions. Large males weight up to 270–280 kg. Sambar live in both lowland dry forests and mountain forests. Large herds of sambar roam the Horton Plains National Park, where it is the most common large mammal.<br>British explorers and planters referred to it, erroneously, as an elk, leading to place names such as Elk Plain.</p>
+		  		<br>
+		  
+		</div>
+	</div>
+		<div id="sitemap3">
+		<h2 class="Galleryh2">Beaches</h2>
+		</div>
+		<div class="row">
+			<div class="column">
+				<img src="11.jpeg" onmouseover ="myFunction3(this);" alt="Nilaveli">
+				<p id="b1" onmouseover="myFunctionshow13();" onmouseout="myFunctionhide13();" >Description</p>
+
+			
+			</div>
+			<div class="column">
+				<img src="12.jpeg" onmouseover ="myFunction3(this);" alt="Kalkudah">
+				<p id="b2" onmouseover="myFunctionshow14();" onmouseout="myFunctionhide14();" >Description</p>
+				
+			</div>
+			<div class="column">
+				<img src="14.jpeg" onmouseover ="myFunction3(this);" alt="Arugam Bay">
+				<p id="b3" onmouseover="myFunctionshow15();" onmouseout="myFunctionhide15();" >Description</p>
+				
+			</div>
+			<div class="column">
+				<img src="15.jpeg" onmouseover ="myFunction3(this);" alt="Mirissa">
+				<p id="b4" onmouseover="myFunctionshow16();" onmouseout="myFunctionhide16();" >Description</p>
+				
+			</div>
+
+			<div class="column">
+				<img src="15.1.jpeg" onmouseover ="myFunction3(this);" alt="Unawatuna">
+				<p id="b5" onmouseover="myFunctionshow17();" onmouseout="myFunctionhide17();" >Description</p>
+				
+			</div>
+
+			<div class="column">
+				<img src="15.2.jpeg" onmouseover ="myFunction3(this);" alt="Uppuveli">
+				<p id="b6" onmouseover="myFunctionshow18();" onmouseout="myFunctionhide18();" >Description</p>
+				
+			</div>
+		</div>
+		
+		<div class="row" id="out3">
+		<div class="container">
+		  <span onclick="this.parentElement.style.display='none'" class="closebtn">&times;</span>
+		  <img id="expandedImg3" src="11.jpeg" alt="temp">
+		  <div id="imgtext3"></div>
+		</div>
+		<div class="description" id="des3">
+			<p id="b1o1"> <b>Nilaveli</b> Nilaveli Beach is a broad, sandy beach, lined with palm trees and dotted with fishermen's boats. Located on the northeast part of Sri Lanka, it's a 30-minute drive from the city of Trincomalee. This tiny island has calm beaches with gentle surf due to its own small reef. Although the beach at Nilaveli is large, it is popular with both locals and tourists. There are lifeguards on duty and many little restaurants along the beach, most specializing in seafood.</p>
+		  		<br>
+		  	<p id="b2o2"> <b>Kalkudah</b> This mile-long beach on Pasikuda Bay is perfect for swimming and wading. The surf is gentle, protected by a reef, unlike many beaches in Sri Lanka with rough surf. The water is also shallow, allowing you to walk out into the ocean for hundreds of yards. The sand is bright white and soft, with fine grains, and the beach is lined with coconut trees. This area is just starting to be discovered for luxury resort development, so there is plenty of untouched beach to explore.</p>
+		  		<br>
+		  	<p id="b3o3"> <b>Arugam Bay</b> Arugam Bay is dramatically beautiful, with bright white sand and deep blue water gradually becoming green the closer you get to the shore. With that beauty comes some of the best surf breaks in Sri Lanka, and the beach is known as an international surf destination. This reputation brings many visitors but also means the area has a good tourist infrastructure and is easy to access. The curving beach feels a bit like a Hawaiian beach - the area near the water slopes down, and there's a dry, sandy section, then rougher areas with shrubs and a tree line.</p>
+		  		<br>
+		  	<p id="b4o4"> <b>Mirissa</b> Mirissa is the largest fishing port on the south coast and sits right on the southern tip of the island. Its beauty and relative proximity to Colombo (the capital city) mean it's not hard to access. It's about a two-hour drive from the capital's airport. The small beach town and its large beach are beautiful, backed by a dense grove of palm trees. The town is on a little hill that rises up behind the beach.</p>
+		  		<br>
+		  	<p id="b5o5"> <b>Unawatuna</b> Unawatuna and its beach are near the colonial town of Galle, which is a great city for sightseeing. Sri Lanka was formerly a colony of both Portugal and Holland (at different times), and this was the country's main city during that time. About five kilometers outside Galle, Unawatuna offers another little bit of beach paradise.</p>
+		  		<br>
+		  	<p id="b6o6"> <b>Uppuveli</b> Located on the island's less developed east coast, Uppuveli offers a true remote, unspoiled beach experience. This is a real, rural beach, so your day at the beach just might be shared with a local cow. If you arrive early, you can watch (or help) the fisherman haul in their nets. The sand is golden, and the sea here is light-blue due to the sun's reflection off the sandy bottom. It's about five kilometers from Trincomalee.</p>
+		  		<br>
+		  
+		</div>
+		</div>
+<br>
+<a class="editorlink" href="EditorR.html">Page editor</a>
+</body>
+</html>

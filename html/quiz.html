@@ -1,0 +1,278 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="UTF-8">
+        <title>Quiz</title>
+        <a id="top"></a>
+        <link rel="stylesheet" href="quiz.css">
+    </head>
+    <body>
+        <div class="qQuestion" id="timer">
+            <div id="timeLeft">Time Left:</div>
+            <div id="displayTimer"></div>
+            <span style="margin-left:150px;"><a href="#q1" class="quizLink">Q 01-03</a></span>
+            <span style="margin-left:30px;"><a href="#q4" class="quizLink">Q 04-06</a></span>
+            <span style="margin-left:30px;"><a href="#q7" class="quizLink">Q 07-10</a></span>
+        </div>
+        <nav>
+            <div class="logo">Ceylon Travels</div>
+            <ul>
+                <li><a href="home.html">Home</a></li> 
+                <li><a href="gallery.html">Gallery</a></li>
+                <li><a href="shopping.html">Shop</a></li>
+                <li><a href="health.html">Health Guidline</a></li>
+                <li><a href="quiz.html">Quiz</a></li>
+                <li><a href="queary.html">Queary</a></li>
+                <li><a href="sitemap.html">Site Map</a></li>
+                <li><a href="aboutus.html">About Us</a></li>
+                
+            </ul>
+        </nav>
+        <form name="myQuiz" id="myQuiz">
+            <div id="quizFirst">
+                <h1 id="quizHead">Welcome to the QUIZ PAGE</h1><br>
+                <div id="qborder">
+                    <p class="quizInformation"><strong>1.Answer all questions</strong></p>
+                    <p class="quizInformation"><strong>2.You only have one minute for answer the question</strong></p>
+                    <p class="quizInformation"><strong>3.Two points will be awarded for each correct answer</strong></p>
+                    <p class="quizInformation"><strong>4.For each incorrect answer,one point will be deducted</strong></p>
+                </div>
+                <div class="button">
+                    <button id="startBtn" type="button" value="start" onclick="showQuiz(this.form);">Start</button>
+                </div>
+            </div>
+
+            <div class="qQuestion">
+                <!--10 questions-->
+                <div id="questions">
+                    <!--Question 01-->
+                    <div class="quest" id="q1">
+                        <p class="answer1"><strong>1.What is the most commonly used nickname for the beautiful island nation of Sri Lanka?</strong></p>
+                        <p class="answer"><input type="radio" name="question1" value="incorrect">Jewel of the Nile</p>
+                        <p class="answer"><input type="radio" name="question1" value="correct">Pearl of the Indian Ocean</p>
+                        <p class="answer"><input type="radio" name="question1" value="incorrect">The Diamond of the Orient</p>
+                        <p class="answer"><input type="radio" name="question1" value="incorrect">Ruby of the Pacific</p>
+                    </div>
+                    <!--Question 02-->
+                    <div class="quest" id="q2">
+                        <p class="answer1"><strong>2.What is the legislative capital city of Sri Lanka?</strong></p>
+                        <p class="answer"><input type="radio" name="question2" value="incorrect">Kandy</p>
+                        <p class="answer"><input type="radio" name="question2" value="incorrect">Colombo</p>
+                        <p class="answer"><input type="radio" name="question2" value="correct">Sri Jayawardanapura Kotte</p>
+                        <p class="answer"><input type="radio" name="question2" value="incorrect">Galle</p>
+                    </div>
+                    <!--Question 03-->
+                    <div class="quest" id="q3">
+                        <p class="answer1"><strong>3.Sri Lanka is known for exporting tea, coffe, rubber and cinnamon, but only one of then is native to the island.which one?</strong></p>
+                        <p class="answer"><input type="radio" name="question3" value="correct">Cinnamon</p>
+                        <p class="answer"><input type="radio" name="question3" value="incorrect">Tea</p>
+                        <p class="answer"><input type="radio" name="question3" value="incorrect">Coffee</p>
+                        <p class="answer"><input type="radio" name="question3" value="incorrect">Rubber</p>
+                    </div>
+                    <!--Question 04-->
+                    <div class="quest" id="q4">
+                        <p class="answer1"><strong>4.What is the longest river in Sri Lanka?</strong></p>
+                        <p class="answer"><input type="radio" name="question4" value="incorrect">Deduru Oya</p>
+                        <p class="answer"><input type="radio" name="question4" value="incorrect">Kalu Ganga River</p>
+                        <p class="answer"><input type="radio" name="question4" value="incorrect">Kelani River</p>
+                        <p class="answer"><input type="radio" name="question4" value="correct">Mahaweli River</p>
+                    </div>
+                    <!--Question 05-->
+                    <div class="quest" id="q5">
+                        <p class="answer1"><strong>5.Which of the Following is the tallest point in Sri Lanka?</strong></p>
+                        <p class="answer"><input type="radio" name="question5" value="incorrect">Hatton</p>
+                        <p class="answer"><input type="radio" name="question5" value="incorrect">Adam's peak</p>
+                        <p class="answer"><input type="radio" name="question5" value="correct">Pidurutalagala</p>
+                        <p class="answer"><input type="radio" name="question5" value="incorrect">Jaffna</p>
+                    </div>
+                    <!--Question 06-->
+                    <div class="quest" id="q6">
+                        <p class="answer1"><strong>6.What is the name of King Kashyapa's Fortress?</strong></p>
+                        <p class="answer"><input type="radio" name="question6" value="correct">Lion Rock</p>
+                        <p class="answer"><input type="radio" name="question6" value="incorrect">Palace Rock</p>
+                        <p class="answer"><input type="radio" name="question6" value="incorrect">Dambulla Rock</p>
+                        <p class="answer"><input type="radio" name="question6" value="incorrect">Kasyapa's Rock</p>
+                    </div>
+                    <!--Question 07-->
+                    <div class="quest" id="q7">
+                        <p class="answer1"><strong>7.How many Districts are there in Sri Lanka?</strong></p>
+                        <p class="answer"><input type="radio" name="question7" value="incorrect">9</p>
+                        <p class="answer"><input type="radio" name="question7" value="correct">25</p>
+                        <p class="answer"><input type="radio" name="question7" value="incorrect">12</p>
+                        <p class="answer"><input type="radio" name="question7" value="incorrect">26</p>
+                    </div>
+                    <!--Question 08-->
+                    <div class="quest" id="q8">
+                        <p class="answer1"><strong>8.What colour is the annimal on the flag of Sri Lanka?</strong></p>
+                        <p class="answer"><input type="radio" name="question8" value="incorrect">Dark Red</p>
+                        <p class="answer"><input type="radio" name="question8" value="incorrect">Orange</p>
+                        <p class="answer"><input type="radio" name="question8" value="incorrect">Green</p>
+                        <p class="answer"><input type="radio" name="question8" value="correct">Gold</p>
+                    </div>
+                    <!--Question 09-->
+                    <div class="quest" id="q9">
+                        <p class="answer1"><strong>9.What is the currency of Sri Lanka?</strong></p>
+                        <p class="answer"><input type="radio" name="question9" value="incorrect">Escudo</p>
+                        <p class="answer"><input type="radio" name="question9" value="incorrect">Rupiah</p>
+                        <p class="answer"><input type="radio" name="question9" value="correct">Rupee</p>
+                        <p class="answer"><input type="radio" name="question9" value="incorrect">Pound</p>
+                    </div>
+                    <!--Question 10-->
+                    <div class="quest" id="q10">
+                        <p class="answer1"><strong>10.What makes  the Golden Temple of Dambulla so unusual?</strong></p>
+                        <p class="answer"><input type="radio" name="question10" value="incorrect">It is built inside a valcano</p>
+                        <p class="answer"><input type="radio" name="question10" value="incorrect">It is made of solid gold</p>
+                        <p class="answer"><input type="radio" name="question10" value="correct">Is it built in a cave</p>
+                        <p class="answer"><input type="radio" name="question10" value="incorrect">The location is secret and to visit you must wear a blindfold </p>
+                    </div>
+                    <div>
+                        <button id="submitButton" type="button" class="submit" onclick="checkAnswers(),colorChange(),printResult();">Submit</button>
+                    </div>
+                  
+                </div>
+            </div>
+
+            <div id="FResults">
+                <h3 id="resultHead">Results</h3>
+                <div id="results">
+                    <div id="totalPoint" class="resultDetails" ></div>
+                    <div id="correctAnswer" class="resultDetails"></div>
+                    <div id="incorrectAnswer" class="resultDetails"></div>
+                    <div id="emptyAnswer" class="resultDetails"></div>
+                    <div id="remainingTime" class="results3Details"></div>
+                </div>
+                <div class="button">
+                    <button id="retryButton" onclick="resetPage(),stopTimer();" type="button">RETRY</button>
+                </div>
+               
+            </div>
+        </form>
+
+        <script>
+            let time;
+            let correctQuestions ='';
+            let incorrectQuestions ='';
+            let emptyQuestions ='';
+            let total=0;
+            let i;
+            let j;
+            let emptyQ=0;
+            let timer;
+
+            function showQuiz(){
+                document.getElementById("quizFirst") .style.display = 'none';
+                document.getElementsByClassName("qQuestion")[0].style.display = 'block';
+                document.getElementsByClassName("qQuestion")[1].style.display = 'block';
+                startTimer();
+                timeout();
+            }
+
+            function startTimer(){
+                time =60;
+                timer = setInterval(
+                    function(){
+                        document.getElementById('displayTimer').innerHTML = time;
+                        if(time>0){
+                            time--
+                        }else{
+                            stopTimer();
+                            time=0;
+                        }
+                    } , 1000);
+            }
+            
+            function checkAnswers(){
+                stopTimer();
+                document.getElementById('remainingTime').innerHTML = "Time Remained :"+ time + "seconds";
+                clearTimeout(setTimer);
+                
+                for(i=1; i<=10; i++){
+                    let questionNum = document.getElementsByName('question'+i);
+                    for(j=0; j<questionNum.length; j++){
+                        let radioValue = questionNum[j];
+                        if(radioValue.value == "correct" && radioValue.checked){
+                            total=total+2;
+                            correctQuestions=correctQuestions + 'Question' + i + ',';   
+                        }else if(radioValue.value == "incorrect" && radioValue.checked){
+                            total=total-1;
+                            incorrectQuestions=incorrectQuestions + 'Question' + i + ',';
+                        }else{
+                            emptyQ +=1;
+                            if(emptyQ==4){
+								total=total-1;
+                                emptyQuestions = emptyQuestions + 'Question' + i + ",";
+                            }
+                        }
+                    }
+                    emptyQ=0;
+                }
+
+                document.getElementById("quizFirst").style.display = 'none';
+                document.getElementsByClassName("qQuestion")[0].style.display = 'none';
+                document.getElementsByClassName("qQuestion")[1].style.display = 'none';
+                document.getElementById("FResults") .style.display = 'block';
+                
+            }
+
+            function printResult(){
+                document.getElementById('totalPoint').innerHTML = "Total Point = " + total + "/20";
+				document.getElementById('correctAnswer').innerHTML = "your Correct Answers: " + correctQuestions;
+				document.getElementById('incorrectAnswer').innerHTML = " Your Incorrect Answers : " + incorrectQuestions;
+				document.getElementById('emptyAnswer').innerHTML = " your Empty Answers : " + emptyQuestions;
+				document.getElementById('remainingTime').innerHTML = "Time Remained : " + time + "seconds";
+            }
+
+            function colorChange(){
+				if(total>=15) {
+					document.body.style.backgroundImage = "url('blue.jpg')";
+				}else if(total<15 && total>=10){
+					document.body.style.backgroundImage = "url('green.jpg')";
+				}else if(total<10 && total>=5){
+					document.body.style.backgroundImage = "url('yellow.jpg')";
+				}else if(total<5 && total>=0){
+					document.body.style.backgroundImage = "url('red.jpg')";
+				}else{
+					document.body.style.backgroundImage= "url('orange.jpg')";
+				}
+                
+			}
+
+            function timeout(){
+                setTimer = setTimeout('timeUp()',60000);
+            }
+
+            function timeUp(){
+                alert("Your time is up!");
+                checkAnswers();
+                colorChange();
+                printResult();
+            }
+            function resetPage(){
+				document.getElementById("myQuiz").reset();
+                document.getElementById("quizFirst").style.display = 'block';
+				document.getElementsByClassName("qQuestions")[0].style.display = 'none';
+				document.getElementsByClassName("qQuestions")[1].style.display = 'none';
+				document.getElementById("FResults").style.display = 'none';
+				total = 0;
+				correctQuestions = '';
+				incorrectQuestions = '';
+				emptyQuestions = '';
+                document.body.style.backgroundColor="#fff";
+				document.body.style.backgroundImage = "url('quizpic.jpg')";
+            }
+
+            function stopTimer(){
+				clearInterval(timer);
+			}
+			
+        </script>
+        <div>
+            <a href="#top"><img src="back.png" alt="back" width="30" height="30" style="float:left;">Back To The Top</a>   
+        </div>
+        <br>
+        <a href="romeshika.html">Click here to go to Page Developer</a><br>
+        <a href="places.html">Click here to go to the Individual page</a><br>
+        <a href="aboutus.html">Click here to go to the Student Details page</a>
+        
+    </body>
+</html>

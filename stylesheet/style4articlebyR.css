@@ -1,0 +1,114 @@
+*{
+	font-family: 'Comfortaa', cursive;
+}
+body {
+	background-color: #003153;
+	color: #D4B499;
+}
+
+h1{
+	display: block;
+	margin: auto;
+	text-align: center;
+}
+
+
+#BTT {
+	width: 50%;
+	display: block;
+	margin: auto;
+	background-color: #002147;
+}
+.innerdiv {
+	width: 90%;
+	margin: auto;
+	display: block;
+}
+
+
+.bodli {
+	padding: 2%;
+	text-align: justify;
+}
+
+
+.bodli:hover {
+  background-color: #4C516D;
+}
+
+img {
+	width: 23%;
+	display: inline-block;
+	margin: auto;
+	padding-left: 1%;
+	padding-right:auto;
+
+
+
+	}
+img:hover{
+		opacity: 0.5;
+	}
+
+button{
+  background-color: #002147;
+  color: #D4B499;
+  display: block;
+  margin: auto;
+}
+
+.editorlink {
+  text-align: center;
+  display: block;
+  text-decoration: none;
+  color:#D4B499 ;
+}
+
+.bodya {
+    color:#D4B499 ;
+}
+
+p{
+    text-align: justify;
+}
+
+/* navbar css */
+nav{
+    height: 80px;
+    background:rgba(0,0,0,0.2);
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 0px 50px 0px 100px;
+
+}
+.logo{
+    font-size: 33px;
+    color: #fff;
+    font-weight: 600;
+
+}
+nav ul{
+    display: flex;
+    list-style: none;
+
+}
+nav ul li{
+    margin: 0 5px
+}
+
+
+nav ul a{
+    color: #fff;
+    text-decoration: none;
+    font-size: 18px;
+    font-weight: 500;
+    letter-spacing: 1px;
+    padding: 8px 10px;
+    border-radius:5px ;
+
+}
+nav ul a:hover{
+    color: #1b1b1b;
+    background:#fff ;
+}

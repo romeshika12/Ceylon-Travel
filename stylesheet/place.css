@@ -1,0 +1,155 @@
+body{
+    background-color: rgba(14, 167, 187, 0.76);
+}
+#navlist li {
+   list-style-type:none;
+   display:inline;
+   padding-right:80px;
+   font-size:22px;
+   border: 2px solid black;
+   border-radius: 10px;
+   background-color: rgb(107, 13, 13);
+   margin-left: 300px;
+}
+div.fixed{
+   display: flex;
+   list-style: none;
+   margin-top: 50px;
+   
+}
+a:visited{color:white;}
+a:hover{color:yellow;}
+a:active{color:red;}
+
+.head1{
+   margin-top: 50px;
+   font-size: 40px;
+   color: rgb(5, 5, 71);
+   font-family: algerian;
+}
+
+h1{
+   text-align: center;
+  
+}
+.title1{
+   border-radius: 10px;
+   position: absolute;
+   width: 600px;
+   height: 700px;
+   background-color: #000000ee;
+   color: white;
+   margin-top: 50px;;
+   margin-left: 10px;
+   line-height: 25px;
+   box-shadow: 10px 10px 10px rgba(4, 70, 214, 0.877);
+}
+.title2{
+   border-radius: 10px;
+   position: absolute;
+   width: 600px;
+   height: 700px;
+   background-color: #000000ee;
+   color: white;
+   margin-top: 50px;;
+   margin-left: 630px;
+   line-height: 25px;
+   box-shadow: 10px 10px 10px rgba(4, 70, 214, 0.877);
+}
+.title3{
+   border-radius: 10px;
+   position: absolute;
+   width: 600px;
+   height: 700px;
+   background-color: #000000ee;
+   color: white;
+   margin-top: 50px;;
+   margin-left:1250px;
+   line-height: 25px;
+   box-shadow: 10px 10px 10px rgba(4, 70, 214, 0.877);
+
+}
+.title4{
+   border-radius: 10px;
+   position: absolute;
+   width: 600px;
+   height: 700px;
+   background-color: #000000ee;
+   color: white;
+   margin-top: 800px;;
+   margin-left:10px;
+   line-height: 25px;
+   box-shadow: 10px 10px 10px rgba(4, 70, 214, 0.877);
+
+}
+.title5{
+   border-radius: 10px;
+   position: absolute;
+   width: 600px;
+   height: 700px;
+   background-color: #000000ee;
+   color: white;
+   margin-top: 800px;;
+   margin-left:630px;
+   line-height: 25px;
+   box-shadow: 10px 10px 10px rgba(4, 70, 214, 0.877);
+
+}
+.title6{
+   border-radius: 10px;
+   position: absolute;
+   width: 600px;
+   height: 700px;
+   background-color: #000000ee;
+   color: white;
+   margin-top: 800px;;
+   margin-left:1250px;
+   line-height: 25px;
+   box-shadow: 10px 10px 10px rgba(4, 70, 214, 0.877);
+
+}
+img{
+   margin-left: 50px;
+   border: 2px solid red;
+   border-radius: 20px;
+}
+p{
+   margin-left: 50px; 
+   margin-right: 50px;
+   font-size: 20px;
+   text-align: justify;
+}
+.pageDev{
+   margin-left: 50px;
+   margin-top: 1600px;
+}
+.logo{
+   font-size: 33px;
+   color: #fff;
+   font-weight: 600;
+   
+}
+nav ul{
+   display: flex;
+   list-style: none;
+
+}
+nav ul li{
+   margin: 0 5px;
+   
+}
+
+nav ul a{
+   color: #fff;
+   text-decoration: none;
+   font-size: 18px;
+   font-weight: 500;
+   letter-spacing: 1px;
+   padding: 8px 10px;
+   border-radius:5px ;
+
+}
+nav ul a:hover{
+   color: #1b1b1b;
+   background:#fff ;
+}

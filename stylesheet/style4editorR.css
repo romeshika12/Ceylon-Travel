@@ -1,0 +1,74 @@
+body {
+  background-color: #86534E;
+  color: #DFDAD5;
+}
+
+
+h2 {
+  font-family: 'Comfortaa', cursive;
+  display: block;
+  text-align: center;
+  width: 50%;
+  margin: auto;
+}
+
+img {
+  border: 1px solid #682923;
+  border-radius: 50%;
+  padding: 5px;
+  width: 20%;
+  margin: auto;
+  display: block;
+}
+
+#profileHEAD {
+  margin: auto;
+}
+
+fieldset {
+  width: 50%;
+  background-color: #682923 ;
+  color: #DFDAD5;
+  font-family: 'Comfortaa', cursive;
+  margin: auto;
+  border-radius: 10%;
+}
+
+.innerfield {
+
+  width: 90%;
+}
+
+#profile {
+  width: 70%;
+  margin: auto;
+  }
+
+  img:hover {
+  box-shadow: 0 0 0 8px #000000 ;
+}
+
+fieldset:hover {
+  box-shadow: 8px 8px 8px 8px #000000 ;
+}
+  h2:hover {
+  box-shadow: 8px 8px 8px 8px #000000 ;
+}
+
+    a {
+  text-decoration: none;
+  background-color: #682923;
+  color: #DFDAD5;
+  font-family: 'Comfortaa', cursive;
+  margin: auto;
+
+
+}
+
+button{
+  background-color: #682923;
+  color: #DFDAD5;
+  font-family: 'Comfortaa', cursive;
+  display: block;
+  margin: auto;
+}

@@ -1,0 +1,224 @@
+*,
+*::before,
+*::after{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+    
+}
+body{
+    height: 100vh;
+    background: linear-gradient(
+        135deg,
+        #02264e,
+        #bdb2fa
+        
+    );
+}
+nav{
+    height: 80px;
+    background:rgba(0,0,0,0.2);
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 0px 50px 0px 100px;
+
+}
+.logo{
+    font-size: 33px;
+    color: #fff;
+    font-weight: 600;
+}
+nav ul{
+    display: flex;
+    list-style: none;
+
+}
+nav ul li{
+    margin: 0 5px
+}
+
+
+nav ul a{
+    color: #fff;
+    text-decoration: none;
+    font-size: 18px;
+    font-weight: 500;
+    letter-spacing: 1px;
+    padding: 8px 10px;
+    border-radius:5px ;
+
+}
+nav ul a:hover{
+    color: #1b1b1b;
+    background:#fff ;
+}
+
+.query-form{
+    width: 750px;
+    min-width: 720px;
+    background-color: rgb(255, 223, 223);
+    border-radius:2px;
+    top: 60%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    position: absolute;
+    padding: 2px 5px;
+    box-shadow: 20px 30px 25px rgba(0,0,0,0.15);
+
+    
+}
+    
+.text{
+
+    font-family: "Poppins", Arial, sans-serif;
+}
+    
+.type{
+
+    margin: 20px 35px 35px 55px;
+}
+    
+.label{
+    font-size: 30px;
+    font-weight: 200;
+    display:inline-block;
+    text-align: center;
+}
+.label p{
+    font-size:12px;
+    text-align: center;
+
+}
+.input{
+    width: 450px;
+    height: 50px;
+    margin-top: 20px;
+    padding-left: 20px;
+    padding-right: 10px;
+    border: 1px solid rgb(5, 179, 248);
+    outline: none;
+    border-radius:2px;
+}
+    
+    
+.radioNew{
+    padding-top: 20px;
+}
+    
+.radio{
+    display: inline-block;
+}
+    
+.subject{
+    font-weight: 300;
+    padding-right: 10px;
+    font-size:18px;
+}
+    
+.subjectNew{
+    padding-right: 10px;
+    font-weight: 300;
+}
+    
+.issue-area {
+    height: 250px;
+    padding-top: 10px;
+    resize: vertical;
+    border-radius: 5px;
+    border: 1.2px solid #c4cae0;
+    margin-top: 5px;
+    border-color: rgb(10, 132, 148);
+}
+    
+.button {
+    margin-top: 18px;
+    display: inline-flex;
+    height: 45px;
+    margin-right: 7px;
+    padding: 0;
+    background: #0986f3;
+    color: black;
+    border: none;
+    outline: none;
+    overflow: hidden;
+    font-size: 16px;
+    cursor: pointer;
+    transition: all 0.5s ease 0s;
+    text-decoration:none;
+}
+    
+.button:hover{
+    background: #6a01f3;
+    
+}
+    
+.button-text{
+    display: inline-flex;
+    align-items: center;
+    padding: 0 15px;
+    height: 100%;
+    }
+    
+    
+.view-buttons{
+    color: rgb(255, 255, 255);
+    font-family: "Poppins", Arial, sans-serif;
+    font-weight: 500;
+    text-decoration: none;
+}
+    
+    
+.details{
+    display: none;
+    width: 800px;
+    background-color: rgb(223, 173, 173);
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    position: absolute;
+    border-radius: 10px;
+}
+    
+.border{
+    margin: 35px;
+    border: 2px solid black;
+    padding: 20px;
+}
+    
+.detail_header{
+
+    margin-top: 35px;
+    margin-bottom: 30px;
+    margin-left: 220px;
+    font-size:20px;
+}
+    
+.details-text{
+    font-family: "Poppins", Arial, sans-serif;
+    font-weight: 250;
+    
+}
+    
+.button_new{
+    margin-top: 0;
+    margin-bottom: 30px;
+    float: right;
+}
+    
+.edit_button{
+    margin-right: 5px;
+    border-radius:10px;
+}
+    
+.send_button{
+    margin-right: 30px;
+    border-radius:10px;
+}
+
+.page-develop{
+    text-align: right;
+    margin-top: 42%;
+    
+
+}

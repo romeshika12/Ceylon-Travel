@@ -1,0 +1,125 @@
+.studentArea{
+    margin-left:240px;
+    padding:0px;
+    border:8px solid rgb(182, 16, 16);
+    width:300px;
+    height:400px;
+    border-radius:20px;
+}
+body{
+    background-image: url("dev.jpg");
+    background-size: 100%;
+}
+.StudentNumber{
+    text-align:center;
+    font-size:30px;
+    font-family:'Times New Roman', Times, serif ;
+    font-weight:bold;
+    border:5px solid rgb(126, 129, 146);
+    border-radius: 20px;
+    margin-left:60px;
+    margin-right:50px;
+    padding-top:15px;
+    padding-bottom:15px;
+    width: 150px;
+
+}
+.imageArea{
+    position:relative;
+    width:300px;
+    height:4000px;
+    border-radius:20px;
+}
+.studentL{
+    width:0px;
+    top: 0px;
+    height:400px;
+    background-color: rgba(2, 2, 2, 0.5);
+    position:absolute;
+    overflow:hidden;
+    transition:width 2s , height 2s , transform 2s;
+    border-radius:150px;
+    
+}
+
+.studentDetails{
+    padding-top:5px;
+	padding-bottom:5px;
+	padding-left:30px;
+	font-size:20px;
+	font-family: "Times New Roman", Times, serif;
+	background-color:rgba(65, 148, 87, 0.5);
+
+}
+#students{
+	margin-top:70px;
+	display:grid;
+	grid-template-columns:330px 330px 330px 330px ;
+}
+.studentPhoto{
+	height:400px;
+	width:300px;
+}
+
+img{
+	border-radius:15px;
+}
+p {
+	color: rgb(253, 253, 253);
+	font-size: 25px;
+	font-family: Georgia, serif;
+}
+
+.imageArea:hover .studentL{
+    width: 300px;
+    transform: rotate(360deg);
+}
+h1{
+    text-align: center;
+    font-size: 70px;
+    color: rgb(0, 238, 218);
+    font-family: algerian;
+    text-shadow:  4px 4px 70px #dfee0a;
+}
+.pageDev{
+    margin-left: 1650px;
+    margin-top: 100px;
+}
+nav{
+    height: 80px;
+    background:rgba(0,0,0,0.2);
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 0px 50px 0px 100px;
+
+}
+.logo{
+    font-size: 33px;
+    color: #fff;
+    font-weight: 600;
+}
+nav ul{
+    display: flex;
+    list-style: none;
+
+}
+nav ul li{
+    margin: 0 5px;
+}
+
+
+nav ul a{
+    color: #fff;
+    text-decoration: none;
+    font-size: 18px;
+    font-weight: 500;
+    letter-spacing: 1px;
+    padding: 8px 10px;
+    border-radius:5px ;
+
+}
+nav ul a:hover{
+    color: #1b1b1b;
+    background:#fff ;
+}

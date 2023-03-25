@@ -1,0 +1,122 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Query</title>
+    <link rel="stylesheet" href="style/queary.css">
+</head>
+<body>
+
+    <nav>
+        <div class="logo">Ceylon Travels</div>
+        <ul>
+            <li><a href="home.html">Home</a></li> 
+            <li><a href="gallery.html">Gallery</a></li>
+            <li><a href="shopping.html">Shop</a></li>
+            <li><a href="health.html">Health guidline</a></li>
+            <li><a href="Quiz.html">Quiz</a></li>
+            <li><a href="queary.html">Query</a></li>
+            <li><a href="sitemap.html">Site Map</a></li>
+            <li><a href="aboutus.html">About Us</a></li>
+            
+        </ul>
+    </nav>
+
+    </div>
+    
+<div class="query-form" id="query-form">
+
+
+    <form class="type" name="type" onsubmit="return false">
+    <label class="text label" id="type-label">GET IN TOUCH  <p> Have any questions of suggestions?
+        Drop us a message </p> </label><br>
+        <br>
+    <Label1 for="name"> <b> Name:  </b></Label1>
+    <input type="text" id="name" class="input text" name="name" placeholder="Enter Your Name">
+    <br>
+    <br>
+    <label2 for="email"> <b>Email: </b></label2>
+    <input type="email" id="email" class="input text" name="email" placeholder="Enter Your Email">
+    
+    
+    <div class="radioNew">
+    <label class="subject" for="subject"><b>Nationality:</b> </label>
+    <input type="radio" class="radio" name="subject" id="srilankan" value="srilankan">
+    <label for="srilankan" class="subjectNew">Srilankan</label>
+    <input type="radio" class="radio" name="subject" id="other-country" value="other-country">
+    <label for="other-country" class="subjectNew">Other Country</label>
+    
+    </div>
+    <br>
+    <br>
+    <label > <b>  Describe your issue: </b>  </label>
+    <textarea class="input text issue-area" name="query" placeholder="Describe your issue in details here..." rows="3"></textarea>
+
+    <br>
+    <label for="conditions"> <b> Terms and Conditions: </b></label>
+    <input type="checkbox" name="conditions" id="conditions" required>
+
+    
+    
+    <a href="" class="button view" onclick="return value()">
+    
+    <span class="button-text view-buttons">View</span>
+    </a>
+    </form>
+    </div>
+    
+    
+    
+    <div class="details details-text" id="details">
+
+    <form class="typing_form" name="typing_form" action="mailto:ruwanaka.20210516@iit.ac.lk" method="get">
+    <h3 class="detail_header">View Details</h3>
+
+    <div class="border">
+
+    <label class="details-lb"><b>Name: </b></label> <label id="NAME"></label> <br>
+    <label class="details-lb"><b>Email: </b></label> <label id="EMAIL"></label><br>
+    <label class="details-lb"><b>Nationality: </b></label> <label id="SUBJECT"></label><br>
+    <label class="details-lb"><b>Describe Issue: </b></label> <label id="ISSUE"></label>
+    </div>
+    
+    <button class="button button_new send_button" type="submit">
+    <span class="button-icon"><ion-icon name="send-new"></ion-icon></span>
+    <span class="button-text view-buttons">Send</span>
+    </button>
+    
+    <button class="button button_new edit_button" onclick="return edit()">
+    <span class="button-icon"><ion-icon name="type-new"></ion-icon></span>
+    <span class="button-text query-buttons">Edit</span>
+    </button>
+    </form>
+    </div>
+    
+    
+    
+    
+            
+
+            <script src="script.js"></script>
+            <div class="page-develop">
+
+                <a href="Ruwanaka.html"> Page Developer</a>
+            </div>
+            <br>
+
+
+
+
+            
+<br>
+<br>
+
+     <br>
+
+            
+
+        </body>
+    </html>
+    

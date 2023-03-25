@@ -1,0 +1,228 @@
+body{
+    
+    background-image: url('quizpic.png');
+    background-size: 100%;
+    
+}
+h1{
+    font-size: 28px;
+    color: blue;
+    text-align: center;
+    font-family:Verdana, Geneva, Tahoma, sans-serif;
+}
+#qborder{
+    width:auto;
+    height: auto;
+    position: relative;
+    
+}
+
+.qQuestion{
+    display:none;
+  
+}
+
+#quizHead{
+    color: rgb(23, 8, 94);
+    text-align: center;
+    font-size: 80px;
+    font-family: algerian;
+    text-shadow:  4px 4px 70px #db1111;
+    animation-name: mymove;
+    animation-duration: 1s;
+    position: relative;
+}
+@keyframes mymove{
+    from{
+        width: 1%;
+        height: 1%;
+    }
+    to{
+        width: 100%;
+        height: 100%; 
+    }
+    
+}
+.quizInformation{
+    color: rgb(5, 8, 1);
+    font-size: 30px;
+    font-weight: bold;
+    font-family: sans-serif;
+    margin-left: 465px;
+
+}
+
+#startBtn{
+    color:white;    
+    background-color: rgb(119, 11, 11);
+    font-size: 40px;
+    font-weight: bold;
+    border: 4px solid;
+    border-color: black;
+    border-radius: 10px;
+    margin-top: 50px;
+    margin-left: 40px;
+    padding: 10px 40px 10px 40px;
+   
+}
+#startBtn:hover{
+    background-color: blue;
+}
+#startBtn:active{
+    background-color: rgb(104, 105, 5);
+}
+.button{
+    text-align: center;
+}
+#questions{
+    font-size: 28px;
+    font-family: Arial, Helvetica, sans-serif;
+    margin-left: 520px;
+    padding-top: 50px;
+}
+.quest{
+    font-family: 'Times New Roman', Times, serif;
+    font-size: 20px;
+    border: 5px solid rgb(14, 5, 66);
+    border-radius: 20px;
+    background-color: rgba(245, 202, 153, 0.616);
+    box-shadow: 5px 5px 5px rgba(209, 57, 57, 0.877);
+    width: 500px;
+    margin-top: 20px;
+    padding-left: 30px;
+}
+.answer1{
+    margin-left: 5px;
+    color: black;
+    font-weight: bold;
+}
+.answer{
+    margin-left: 30px;
+    color: rgb(7, 7, 53);
+    font-weight: bold;
+    font-style: italic ;
+
+}
+#submitButton{
+    margin-top: 30px;
+    margin-bottom: 30px;
+    margin-left: 200px;
+    padding: 10px 30px 10px 30px;
+    border: 4px solid black;
+    border-radius: 10px;
+    font-weight: bold;
+    color: rgb(245, 236, 236);
+    background-color: rgb(99, 10, 7);
+    font-size: 30px;
+}
+#submitButton:hover{
+    background-color:blue ;
+}
+#submitButton:active{
+    background-color:rgb(8, 110, 85) ;
+}
+
+#timeLeft{
+    display: inline;
+}
+#displayTimer{
+    display: inline;
+}
+#timer{
+    position: fixed;
+    background-color:rgba(0,0,0,0.2);
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 20px;
+    font-weight: bold;
+    width: 100%;
+    padding: 10px 2px 10px 2px;
+    margin: -6px 0px 0px -10px;
+    color: rgb(122, 24, 24);
+    
+}
+#results{
+    border: 5px solid rgb(0, 0, 0);
+    border-radius: 15px;
+}
+#resultHead{
+    color: rgb(10, 3, 73);
+    text-align: center;
+    font-size: 70px;
+    font-family: algerian;
+    text-shadow:  4px 4px 70px #db1111;
+}
+#FResults{
+    display: none;
+    
+}
+.resultDetails{
+    font-family: 'Times New Roman', Times, serif ;
+    font-size:25px ;
+    color: rgb(1, 15, 15);
+    line-height: 2;
+    
+}
+.quizLink{
+    text-decoration: none;
+    color: rgb(212, 37, 37);
+    border: 3px solid rgb(19, 19, 2);
+    border-radius: 15px;
+    margin-left: 300px;
+}
+#retryButton{
+    font-size: 20px;
+    font-weight: bold;
+    margin-top: 30px;
+    margin-bottom: 30px;
+    margin-left: 200px;
+    padding: 10px 30px 10px 30px;
+    border: 4px solid black;
+    border-radius: 10px;
+    color: rgb(245, 236, 236);
+    background-color: rgb(99, 10, 7);
+}
+#retryButton:hover{
+    background-color: blue;
+}
+#retryButton:active{
+    background-color: rgb(192, 189, 8);
+}
+nav{
+    height: 80px;
+    background:rgba(0,0,0,0.2);
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 0px 50px 0px 100px;
+
+}
+.logo{
+    
+    font-size: 33px;
+    color: #fff;
+    font-weight: 600;
+}
+nav ul{
+    display: flex;
+    list-style: none;
+
+}
+nav ul li{
+    margin: 0 5px;
+}
+
+
+nav ul a{
+    color: #fff;
+    text-decoration: none;
+    font-size: 18px;
+    font-weight: 500;
+    letter-spacing: 1px;
+    padding: 8px 10px;
+    border-radius:5px ;
+
+}
+nav ul a:hover{
+    color: #1b1b1b;
+    background:#fff ;
+}
